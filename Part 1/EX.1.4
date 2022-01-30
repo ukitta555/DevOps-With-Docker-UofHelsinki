@@ -1,0 +1,11 @@
+Start container:
+
+docker container run -it --rm --name curler ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website'
+
+Commands to fix problems:
+docker exec -it curler bash
+
+Inside container:
+apt-get update
+apt-get -y install sudo
+sudo apt install curl
