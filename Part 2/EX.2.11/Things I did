@@ -1,0 +1,2 @@
+I already use containers in development extensively - database and Redis I use are containerized.
+I also created bash alias so that I won't have to type docker-compose up every time :)

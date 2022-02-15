@@ -1,0 +1,3 @@
+1. Change URL & port that frontend uses to send requests to API
+2. Can remove CORS ENV from backend as both backend and frontend are from the same origin.
+3. Removed exposed ports for frontend and backend as nginx is in the same network as they are.
